@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BearerToken", "BearerToken\BearerToken.csproj", "{DF5A555F-DC9C-4F75-8561-38DDC1524964}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAuthentication", "BasicAuthentication\BasicAuthentication.csproj", "{29FAD144-8833-4325-A2FC-65DB076F0CA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oauth2", "Oauth2\Oauth2.csproj", "{C804BA84-0298-4745-BD7D-F4A6FE3C68A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DF5A555F-DC9C-4F75-8561-38DDC1524964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF5A555F-DC9C-4F75-8561-38DDC1524964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF5A555F-DC9C-4F75-8561-38DDC1524964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29FAD144-8833-4325-A2FC-65DB076F0CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FAD144-8833-4325-A2FC-65DB076F0CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FAD144-8833-4325-A2FC-65DB076F0CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FAD144-8833-4325-A2FC-65DB076F0CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C804BA84-0298-4745-BD7D-F4A6FE3C68A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C804BA84-0298-4745-BD7D-F4A6FE3C68A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C804BA84-0298-4745-BD7D-F4A6FE3C68A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C804BA84-0298-4745-BD7D-F4A6FE3C68A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
