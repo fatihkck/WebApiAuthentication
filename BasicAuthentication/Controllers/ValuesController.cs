@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BasicAuthentication.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -7,9 +8,9 @@ using System.Web.Http;
 
 namespace BasicAuthentication.Controllers
 {
-    public class ValuesController1 : ApiController
+    public class ValuesController : ApiController
     {
-        // GET api/<controller>
+       [BasicAuthentication]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
