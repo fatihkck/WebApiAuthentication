@@ -5,7 +5,7 @@ using System.Web;
 
 namespace BasicAuthentication.Models
 {
-    public class UserValidate
+    public static class UserValidate
     {
 
         public static bool Login(string username,string password)
