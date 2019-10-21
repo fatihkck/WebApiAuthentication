@@ -1,0 +1,94 @@
+{
+	"id": "70750224-273d-6953-5583-549231648011",
+	"name": "BearerToken",
+	"description": "",
+	"order": [
+		"2924f3c2-ade7-b9b0-6476-c935f57d8b68",
+		"3141e55d-4100-d145-4f65-c4d5eaca8ba9"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1571664894543,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "2924f3c2-ade7-b9b0-6476-c935f57d8b68",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:58173/token",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "username",
+					"value": "fatih",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1571665011862,
+			"name": "http://localhost:58173/token",
+			"description": "",
+			"collectionId": "70750224-273d-6953-5583-549231648011",
+			"responses": []
+		},
+		{
+			"id": "3141e55d-4100-d145-4f65-c4d5eaca8ba9",
+			"headers": "Authorization: bearer WaK0_axUp7PiWuk3-UW1brWIFOVIkE87A1sp11BB367BpYfAmDvwocuqQfzIA90F09o9ohaYEUjhBIJJDYo2353lGAYHi4xFwVpyqfz43o-nPdRtzG-nQ6CNE9V4M3I76qAs9ljwjUkmCixsXFKx5QVGgNnBSUjE_-VqeDg63ez97HNFu0_CWIkh58TcPO81JjwGBRLj5dsv42WVIFWaRceLwar7roHTlyVJqOwUwvY\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "bearer WaK0_axUp7PiWuk3-UW1brWIFOVIkE87A1sp11BB367BpYfAmDvwocuqQfzIA90F09o9ohaYEUjhBIJJDYo2353lGAYHi4xFwVpyqfz43o-nPdRtzG-nQ6CNE9V4M3I76qAs9ljwjUkmCixsXFKx5QVGgNnBSUjE_-VqeDg63ez97HNFu0_CWIkh58TcPO81JjwGBRLj5dsv42WVIFWaRceLwar7roHTlyVJqOwUwvY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:58173/api/default",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1571665013385,
+			"name": "http://localhost:58173/api/default",
+			"description": "",
+			"collectionId": "70750224-273d-6953-5583-549231648011",
+			"responses": []
+		}
+	]
+}
